@@ -8,15 +8,15 @@ $ open https://git-scm.com
 
 ## Tasks
 
-- [ ] 1. Создать публичный репозиторий с названием **lab03** и с лиценцией **MIT**
-- [ ] 2. Ознакомиться со ссылками учебного материала
-- [ ] 3. Выполнить инструкцию учебного материала
-- [ ] 4. Составить отчет и отправить ссылку личным сообщением в **Slack**
+- [X] 1. Создать публичный репозиторий с названием **lab03** и с лиценцией **MIT**
+- [X] 2. Ознакомиться со ссылками учебного материала
+- [X] 3. Выполнить инструкцию учебного материала
+- [X] 4. Составить отчет и отправить ссылку личным сообщением в **Slack**
 
 ## Tutorial
 
 ```ShellSession
-$ export GITHUB_USERNAME=<имя_пользователя>
+$ export GITHUB_USERNAME=<имя_пользователя> 
 $ export GITHUB_EMAIL=<адрес_почтового_ящика>
 $ alias edit=<nano|vi|vim|subl>
 ```
@@ -28,17 +28,17 @@ $ source scripts/activate
 
 ```ShellSession
 $ mkdir projects/lab03 && cd projects/lab03
-$ git init
-$ git config --global user.name ${GITHUB_USERNAME}
+$ git init //создание git-репозитория
+$ git config --global user.name ${GITHUB_USERNAME} //указание имени и эл. почты
 $ git config --global user.email ${GITHUB_EMAIL}
 $ git config -e --global
-$ git remote add origin https://github.com/${GITHUB_USERNAME}/lab03.git
-$ git pull origin master
-$ touch README.md
-$ git status
-$ git add README.md
+$ git remote add origin https://github.com/${GITHUB_USERNAME}/lab03.git //добавление удаленного репозитория
+$ git pull origin master //загрузить ветку master с удаленного репозитория
+$ touch README.md //смена времени изменения на текущее
+$ git status 
+$ git add README.md //добавляем под версионный контроль файл README.md
 $ git commit -m"added README.md"
-$ git push origin master
+$ git push origin master //отправление в главный репозиторий 
 ```
 
 Добавить на сервисе **GitHub** в репозитории **lab03** файл **.gitignore**
@@ -53,7 +53,7 @@ $ git push origin master
 
 ```ShellSession
 $ git pull origin master
-$ git log
+$ git log //просмотр истории коммитов
 ```
 
 ```ShellSession
@@ -107,7 +107,7 @@ EOF
 ```
 
 ```ShellSession
-$ edit README.md
+$ edit README.md //изменить файл README.md
 ```
 
 ```ShellSession
