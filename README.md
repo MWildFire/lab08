@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/MWildFire/lab06.svg?branch=master)](https://travis-ci.org/MWildFire/lab06)
+[![Build Status](https://travis-ci.org/MWildFire/lab07.svg?branch=master)](https://travis-ci.org/MWildFire/lab07)
 ## Laboratory work V
 
 Данная лабораторная работа посвещена изучению систем непрерывной интеграции на примере сервиса **Travis CI**
@@ -10,7 +10,7 @@ $ open https://travis-ci.org
 ## Tasks
 
 - [X] 1. Авторизоваться на сервисе **Travis CI** с использованием **GitHub** аккаунта
-- [X] 2. Создать публичный репозиторий с названием **lab06** на сервисе **GitHub**
+- [X] 2. Создать публичный репозиторий с названием **lab07** на сервисе **GitHub**
 - [X] 3. Ознакомиться со ссылками учебного материала
 - [X] 4. Включить интеграцию сервиса **Travis CI** с созданным репозиторием
 - [X] 5. Получить токен для **Travis CLI** с правами **repo** и **user**
@@ -42,10 +42,10 @@ $ gem install travis
 ```
 
 ```ShellSession
-$ git clone https://github.com/${GITHUB_USERNAME}/lab04 projects/lab06
-$ cd projects/lab06
+$ git clone https://github.com/${GITHUB_USERNAME}/lab04 projects/lab07
+$ cd projects/lab07
 $ git remote remove origin
-$ git remote add origin https://github.com/${GITHUB_USERNAME}/lab06
+$ git remote add origin https://github.com/${GITHUB_USERNAME}/lab07
 ```
 
 ```ShellSession
